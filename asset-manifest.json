@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/eslabs-home/static/css/main.710fe27e.css",
+    "main.js": "/eslabs-home/static/js/main.98eb626c.js",
+    "index.html": "/eslabs-home/index.html",
+    "main.710fe27e.css.map": "/eslabs-home/static/css/main.710fe27e.css.map",
+    "main.98eb626c.js.map": "/eslabs-home/static/js/main.98eb626c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.710fe27e.css",
+    "static/js/main.98eb626c.js"
+  ]
+}
