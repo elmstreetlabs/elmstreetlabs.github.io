@@ -4,7 +4,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(180deg, #000, #111);
+    // Firefox compatible gradient background
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(17, 17, 17, 1) 100%
+    );
+    // end gradient background
     text-align: center;
 
     .hero-content {

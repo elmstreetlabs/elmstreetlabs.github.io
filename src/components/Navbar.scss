@@ -7,8 +7,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    // browser glassmorphism
     background: rgba(0,0,0,0.4);
+    //(Chrome/Safari/Edge)
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);   
+    // Firefox fallback
+    @supports not (backdrop-filter: blur(10px)) {
+        background: rgba(0, 0, 0, 0.6);
+    }
+    // end browser compatibility
     z-index: 100;
 
     .nav-logo {
